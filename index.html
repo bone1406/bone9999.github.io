@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>The band project</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+</head>
+<body>
+    <!--    
+        1.header
+        2.slider
+        3.content
+            .the-band
+            .ticket
+            .contact
+            .map
+        4.Footer        
+     -->
+     <div id="header">
+        <ul class="navigator">
+            <li><a href="#">Home</a></li>
+            <li><a href="#the-band">Band</a></li>
+            <li><a href="#tour-dates">Tour</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="">More<i class="down-icon ti-arrow-down"></i></a>
+                <ul class="sub-nav">
+                    <li><a href="#">Merchandise</a></li>
+                    <li><a href="#">Extras</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="search-btn"><i class="ti-search search-icon"></i></div>
+     </div>
+     <!-- End header -->
+     <div id="slider">
+         <div class="slider-content">
+             <h3 class="title">New York</h3>
+             <p class="intro">The atmosphere in New York is lorem ipsum.</p>
+         </div>
+     </div>
+     <!-- End slider -->
+     <div id="content">
+         <div class="section" id="the-band">
+             <h2 class="section-name text-center">THE BAND</h2>
+             <p class="section-slogan text-center">We love Music</p>
+             <p class="section-content">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             <div class="flex">
+                 <div class="flex-item">
+                     <p class="member-name">Name</p>
+                     <img src="./assets/img/about/bandmember.jpg" alt="Member IMG" class="member-img">
+                 </div>
+                 <div class="flex-item">
+                    <p class="member-name">Name</p>
+                    <img src="./assets/img/about/bandmember.jpg" alt="Member IMG" class="member-img">
+                 </div>
+                 <div class="flex-item">
+                    <p class="member-name">Name</p>
+                    <img src="./assets/img/about/bandmember.jpg" alt="Member IMG" class="member-img">
+                 </div>
+             </div>
+         </div>
+         <!-- End the band section -->
+     <div class="backgroundColor--black">
+         <div class="section" id="tour-dates">
+            <h2 class="section-name text-center color--white">TOUR DATES</h2>
+            <p class="section-slogan text-center color--white">Remember to book your tickets!</p>
+            <br/>
+            <ul class="calendar">
+                <li>September<span class="sold-out">Sold out</span></li>
+                <li>October<span class="sold-out">Sold out</span></li>
+                <li>November<span class="quantity text-center">3</span></li>
+            </ul>
+            <div class="flex">
+                <div class="flex-item">
+                    <img src="./assets/img/tourdates/newyork.jpg" alt="New York" class="tourplace__image">
+                    <div class="place__body">
+                        <p class="place__title">New York</p>
+                        <p class="place__date">Fri 27 Nov 2016</p>
+                        <p class="place__des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <div class="buy-btn color--white">Buy Tickets</div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/img/tourdates/paris.jpg" alt="New York" class="tourplace__image">
+                    <div class="place__body">
+                        <p class="place__title">Paris</p>
+                        <p class="place__date">Sat 28 Nov 2016</p>
+                        <p class="place__des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <div class="buy-btn color--white">Buy Tickets</div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/img/tourdates/sanfran.jpg" alt="New York" class="tourplace__image">
+                    <div class="place__body">
+                        <p class="place__title">San Francisco</p>
+                        <p class="place__date">Sun 29 Nov 2016</p>
+                        <p class="place__des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <div class="buy-btn color--white">Buy Tickets</div>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <!-- End Tour dates -->
+         <div class="section" id="contact">
+            <h2 class="section-name text-center">CONTACT</h2>
+            <p class="section-slogan text-center">Fan? Drop a note!</p>
+            <div class="flex">
+                <div class="flex-50 flex-item-left">
+                    <p class="contact--info"><i class="ti-location-arrow contact-icon"></i>Chiacago, US</p>
+                    <p class="contact--info"><i class="ti-mobile contact-icon"></i>Phone: +00 151515</p>
+                    <p class="contact--info"><i class="ti-email contact-icon"></i>Email: mail@mail.com</p>
+                </div>
+                <div class="flex-50 flex-item-left">
+                    <form action="">
+                        <div class="flex">
+                            <input class="form-box" type="text" required placeholder="Name">
+                            <input class="form-box" type="email" required placeholder="Email">
+                        </div>
+                        <div class="flex flex-100">
+                            <input class="form-box" type="text" required placeholder="Message">
+                        </div>
+                        <input class="form-submit-btn" type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+         </div>
+         <!-- End contact -->
+         <div class="map">
+             <img src="./assets/img/map/map.jpg" alt="Map">
+         </div>
+         <!-- End map -->
+     </div>
+     <div id="footer">
+         <div class="social-list">
+             <a href=""><i class="ti-facebook"></i></a>
+             <a href=""><i class="ti-instagram"></i></a>
+             <a href=""><i class="ti-pinterest"></i></a>
+             <a href=""><i class="ti-twitter"></i></a>
+             <a href=""><i class="ti-linkedin"></i></a>
+             <a href=""><i class="ti-tumblr"></i></a>
+             <p class="copyright">Powered by <a href="#" class="ThanhNguyen">Thanh Nguyen</a></p>
+         </div>
+     </div>
+
+     
+</body>
+</html>
